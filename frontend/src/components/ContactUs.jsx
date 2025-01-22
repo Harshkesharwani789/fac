@@ -126,7 +126,7 @@ function ContactUs() {
                         <span className="fw-bold"> India Address - </span> No. 880 , Rajiv Gandhi Nagar, Bangalore 560097,India
                       </Card.Text>
                       <Card.Text>
-                        <span className="fw-bold"> USA Address - </span> 15728,Lorain Ave, Unit #170 , Cleveland , OH 44111 , USA
+                        <span className="fw-bold"> USA Address - </span> 15728 Lorain Ave, Unit #170 , Cleveland , OH 44111 , USA
                       </Card.Text>
                     </div>
                   </Card.Body>
@@ -274,7 +274,7 @@ function ContactUs() {
                 Gandhi Nagar, Bangalore 560097,India
               </p>
               <p className="d-flex align-items-start gap-2">
-                <i className="fa-solid fa-location-dot mt-3 fa-xl" style={{ color: "#F39C12" }}></i> 15728,Lorain Ave, Unit #170 , Cleveland , OH 44111 , USA
+                <i className="fa-solid fa-location-dot mt-3 fa-xl" style={{ color: "#F39C12" }}></i> 15728 Lorain Ave, Unit #170 , Cleveland , OH 44111 , USA
               </p>
               <p className="d-flex align-items-center gap-2">
                 <i className="bi bi-envelope-fill" style={{ color: "#F39C12" }}></i>

@@ -220,7 +220,7 @@ function ProductGallery() {
     Gandhi Nagar, Bangalore 560097,India
   </p>
   <p className="d-flex align-items-start gap-2">
-    <i class="fa-solid fa-location-dot mt-3 fa-xl" style={{ color: "#F39C12" }}></i> 15728,Lorain Ave, Unit #170 , Cleveland , OH 44111 , USA
+    <i class="fa-solid fa-location-dot mt-3 fa-xl" style={{ color: "#F39C12" }}></i> 15728 Lorain Ave, Unit #170 , Cleveland , OH 44111 , USA
   </p>
   <p className="d-flex align-items-center gap-2">
     <i
