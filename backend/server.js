@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }))
 // Enable CORS
 app.use(
   cors({
-    origin: "http://localhost:3000", // Allow requests from this origin
+    origin: "https://fac-1.onrender.com", // Allow requests from this origin
     methods: ["GET", "POST"], // Allow these HTTP methods
     allowedHeaders: ["Content-Type"], // Allow these headers
   }),
