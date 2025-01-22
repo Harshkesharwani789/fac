@@ -64,12 +64,10 @@ function ContactUs() {
 
   return (
     <div>
-      <div>
-        <div className="contact-page">
-          <div className="overlay"></div>
-          <div className="content-wrapper1">
-            <h1>Contact Us</h1>
-          </div>
+      <div className="contact-page">
+        <div className="overlay"></div>
+        <div className="content-wrapper1">
+          <h1>Contact Us</h1>
         </div>
       </div>
       <Container
@@ -84,33 +82,10 @@ function ContactUs() {
         <Row>
           {/* First Flexbox: Content */}
           <Col md={6}>
-            <h2>We&apos;re Here to Help Contact Us</h2>
+            <h2>We're Here to Help Contact Us</h2>
             <h5 className="text-warning mb-3">Get In Touch</h5>
 
             <Row className="mb-4">
-            <Col md={3} className="mb-4">
-            <h5>Get in Touch</h5>
-            <p className="d-flex align-items-start gap-2">
-              <i className="fa-solid fa-location-dot mt-3 fa-xl" style={{ color: "#F39C12" }}></i> No. 880 , Rajiv
-              Gandhi Nagar, Bangalore 560097,India
-            </p>
-            <p className="d-flex align-items-start gap-2">
-              <i className="fa-solid fa-location-dot mt-3 fa-xl" style={{ color: "#F39C12" }}></i> 15728 Lorain Ave, Unit #170 , Cleveland , OH 44111 , USA
-            </p>
-            <p className="d-flex align-items-center gap-2">
-              <i className="bi bi-envelope-fill" style={{ color: "#F39C12" }}></i>
-              sales@preciseaxis.com
-            </p>
-            <p className="d-flex align-items-center gap-2">
-              <i className="bi bi-envelope-fill" style={{ color: "#F39C12" }}></i>
-              preciseaxis@gmail.com
-            </p>
-            <p className="d-flex align-items-center gap-2">
-              <i className="bi bi-telephone-fill" style={{ color: "#F39C12" }}></i>
-              (+91) 8951960110  <br /> +1 216 800-7148
-            </p>
-          </Col>
-
               <Col md={12} className="mb-3">
                 <Card className="bg-dark text-white p-3">
                   <Card.Body className="d-flex align-items-center">
@@ -123,10 +98,48 @@ function ContactUs() {
                     <div>
                       <Card.Title>Location</Card.Title>
                       <Card.Text>
-                        <span className="fw-bold"> India Address - </span> No. 880 , Rajiv Gandhi Nagar, Bangalore 560097,India
+                        <span className="fw-bold"> INDIA Address - </span> No. 890 , Rajiv Gandhi Nagar, Bangalore 560097,India
                       </Card.Text>
                       <Card.Text>
                         <span className="fw-bold"> USA Address - </span> 15728 Lorain Ave, Unit #170 , Cleveland , OH 44111 , USA
+                      </Card.Text>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col md={12} className="mb-3">
+                <Card className="bg-dark text-white p-3">
+                  <Card.Body className="d-flex align-items-center">
+                    <div className="me-3">
+                      <i
+                        className="bi bi-telephone-fill"
+                        style={{ fontSize: "1.5rem", color: "#F39C12" }}
+                      ></i>
+                    </div>
+                    <div>
+                      <Card.Title>Call Now</Card.Title>
+                      <Card.Text>
+                        <span className="fw-bold">INDIA:</span> (+91) 8951960110<br />
+                        <span className="fw-bold">USA:</span> +1 216 800-7146
+                      </Card.Text>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col md={12} className="mb-3">
+                <Card className="bg-dark text-white p-3">
+                  <Card.Body className="d-flex align-items-center">
+                    <div className="me-3">
+                      <i
+                        className="bi bi-envelope-fill"
+                        style={{ fontSize: "1.5rem", color: "#F39C12" }}
+                      ></i>
+                    </div>
+                    <div>
+                      <Card.Title>Email</Card.Title>
+                      <Card.Text>
+                        sales@preciseaxis.com<br />
+                        preciseaxis@gmail.com
                       </Card.Text>
                     </div>
                   </Card.Body>
@@ -270,7 +283,7 @@ function ContactUs() {
             <Col md={3} className="mb-4">
               <h5>Get in Touch</h5>
               <p className="d-flex align-items-start gap-2">
-                <i className="fa-solid fa-location-dot mt-3 fa-xl" style={{ color: "#F39C12" }}></i> No. 880 , Rajiv
+                <i className="fa-solid fa-location-dot mt-3 fa-xl" style={{ color: "#F39C12" }}></i> No. 890 , Rajiv
                 Gandhi Nagar, Bangalore 560097,India
               </p>
               <p className="d-flex align-items-start gap-2">
@@ -278,11 +291,13 @@ function ContactUs() {
               </p>
               <p className="d-flex align-items-center gap-2">
                 <i className="bi bi-envelope-fill" style={{ color: "#F39C12" }}></i>
-                sales@preciseaxis.com
+                sales@preciseaxis.com<br />
+                preciseaxis@gmail.com
               </p>
               <p className="d-flex align-items-center gap-2">
                 <i className="bi bi-telephone-fill" style={{ color: "#F39C12" }}></i>
-                (+91) 8951960110  <br /> +1 216 800-7148
+                <span className="fw-bold"> (+91) 8951960110</span><br />
+                <span className="fw-bold">+1 216 800-7146</span> 
               </p>
             </Col>
           </Row>
